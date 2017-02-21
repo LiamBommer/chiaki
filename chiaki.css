@@ -1,0 +1,62 @@
+body {
+	text-align:center;
+}
+
+#top-decoration-div {
+	position:relative;
+	width:400px;
+	height:100px;
+}
+
+.top-decoration {
+	margin:0 auto;
+}
+
+#line-on-top {
+	z-index:-1;
+}
+
+#icon-on-top-div {
+	width:100px;	height:100px;
+	position:absolute;
+	left:150px;
+	top:0px;
+}
+
+#mid-image-div {
+	margin:0 auto;
+	width:1080px;
+}
+
+.mid-image {
+	max-height:600px;
+}
+
+#cha-in-mid-div {
+	margin:0 auto;
+	width:900px;
+	height:450px;
+}
+
+.cha-in-mid-div {
+	float:left;
+	width:33.3%;
+	height:100%;
+}
+
+.cha-in-mid-icon-div {
+	margin:30px auto;
+	width:50%;
+	height:33.3%;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+}
+
+.cha-in-mid-icon {
+	height:150px;
+	position:absolute;
+}
+#cha-in-mid-chiaki{ left:-13%;}
+#cha-in-mid-kana{ left:-40%;}
+#cha-in-mid-chunxiang{ left:-40%;}

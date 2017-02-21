@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Chiaki Minami</title>
+<meta charset="utf-8">
+<meta name="description" content="About Chiaki Minami">
+<meta name="keywords" content="Chiaki Minami">
+<!-- Site CSS -->
+<link rel="stylesheet" type="text/css" href="chiaki.css">
+</head>
+
+<body>
+<div class="top-decoration" id="top-decoration-div">
+<canvas class="top-decoration-line" id="line-on-top" width="400px" height="100px">浏览器不支持HTML5 canvas标签</canvas>
+<!-- draw line -->
+<script>
+var c=document.getElementById("line-on-top");
+var ctx=c.getContext("2d");
+ctx.moveTo(0,50);
+ctx.lineTo(400,50);
+ctx.stroke();
+</script>
+<div class="decoration" id="icon-on-top-div">
+<img class="top-decoration-icon" id="icon-on-top" src="images/icon-on-top.jpg" alt="chiaki icon" width="100px" height="100px">
+</div>
+</div>
+<div class="mid-image-div" id="mid-image-div">
+	<img class="mid-image" id="image-in-mid" src="images/image-in-mid.jpg" alt="chiaki image">
+</div>
+<div class="cha-in-mid" id="cha-in-mid-div">
+	<div class="cha-in-mid-div" id="cha-in-mid-left-div">
+		<div class="cha-in-mid-icon-div">
+			<img class="cha-in-mid-icon" id="cha-in-mid-chiaki" alt="chiaki" src="images/icon-chiaki.jpg">
+		</div>
+	</div>
+	<div class="cha-in-mid-div" id="cha-in-mid-middle-div">
+		<div class="cha-in-mid-icon-div">
+			<img class="cha-in-mid-icon" id="cha-in-mid-kana" alt="kana" src="images/icon-kana.jpg">
+		</div>
+	</div>
+	<div class="cha-in-mid-div" id="cha-in-mid-right-div">
+		<div class="cha-in-mid-icon-div">
+			<img class="cha-in-mid-icon" id="cha-in-mid-chunxiang"alt="ChunXiang" src="images/icon-chunxiang.jpg">
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
