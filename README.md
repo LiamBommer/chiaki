@@ -1,5 +1,7 @@
 ##HTML Pages
-It's some pages about cartoon character Chiaki Miniami in cartoon Minami-ki, which is for trying to deploy Github Pages.
+It's some pages about cartoon character Chiaki Miniami in cartoon Minami-ki, which is for trying to deploy Github Pages.  
+  
+  
 And the site is: https://liambommer.github.io/chiaki/chiaki.html
 ***
 ###Propose
