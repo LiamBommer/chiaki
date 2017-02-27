@@ -54,9 +54,21 @@ body {
 }
 
 .cha-in-mid-icon {
-	height:150px;
+	height:145px;
 	position:absolute;
+	top:3%;
 }
-#cha-in-mid-chiaki{ left:-13%;}
+#cha-in-mid-fujioka{ left:-40%;}
 #cha-in-mid-kana{ left:-40%;}
-#cha-in-mid-chunxiang{ left:-40%;}
+#cha-in-mid-haruka{ left:-40%;}
+
+.cha-in-mid-text-div {
+	text-align:center;
+}
+h1.cha-in-mid-text {
+	font-family:Arial;
+	font-weight:100;
+}
+#cha-in-mid-text-fujioka {color:#F6B352;}
+#cha-in-mid-text-kana {color:#9055A2;}
+#cha-in-mid-text-haruka {color:#FDD692;}
